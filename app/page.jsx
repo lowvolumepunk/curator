@@ -7,29 +7,30 @@ export default function Home() {
       {/* Center Green Area */}
       <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center">
         {/* Navigation Boxes */}
-        <div className="flex gap-4 p-6">
-          {/* New Arrivals (bigger box) */}
-          <div className="w-48 h-24 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
-            New Arrivals
+        <div className="flex gap-6 p-8">
+          {/* New Arrivals (bigger box, stacked text) */}
+          <div className="w-56 h-32 bg-white text-black flex flex-col items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+            <span className="text-xl font-bold leading-tight">Newest</span>
+            <span className="text-xl font-bold leading-tight">Arrivals</span>
           </div>
 
           {/* Other Boxes */}
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Music
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Digital Art
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Physical Art
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Films
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Short Films
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
+          <div className="w-48 h-16 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300 text-lg font-semibold">
             Architecture
           </div>
         </div>
