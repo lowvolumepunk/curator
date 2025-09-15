@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* You can add your own global styles below */
+/* Custom font */
+@font-face {
+  font-family: 'MyFont';
+  src: url('/fonts/MyFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'MyFont', sans-serif;
 }
