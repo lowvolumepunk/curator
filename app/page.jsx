@@ -1,37 +1,50 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen">
-      {/* Sidebar */}
-      <aside className="w-64 bg-black text-white p-6">
-        <h2 className="text-xl font-bold mb-6">Curator</h2>
-        <nav className="space-y-4">
-          <a href="#" className="block hover:text-gray-400">
-            Home
-          </a>
-          <a href="#" className="block hover:text-gray-400">
-            Articles
-          </a>
-          <a href="#" className="block hover:text-gray-400">
-            Art
-          </a>
-          <a href="#" className="block hover:text-gray-400">
-            Projects
-          </a>
-        </nav>
-      </aside>
+      {/* Left Red Sidebar */}
+      <div className="w-32 bg-[#682300]" />
 
-      {/* Main Content */}
-      <div className="flex-1 p-10 text-white">
-        <h1 className="text-3xl font-bold">Welcome to My Curator Site</h1>
-        <p className="mt-4 text-lg">
-          Select a category above to explore articles, art, and projects.
-        </p>
+      {/* Center Green Area */}
+      <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center">
+        {/* Navigation Boxes */}
+        <div className="flex gap-4 p-6">
+          {/* New Arrivals (bigger box) */}
+          <div className="w-48 h-24 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            New Arrivals
+          </div>
 
-        {/* Tailwind test block */}
-        <div className="bg-[#FFD93A] text-black p-10 mt-6">
-          HELLO FROM TAILWIND 3
+          {/* Other Boxes */}
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Music
+          </div>
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Digital Art
+          </div>
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Physical Art
+          </div>
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Films
+          </div>
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Short Films
+          </div>
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+            Architecture
+          </div>
+        </div>
+
+        {/* Placeholder Content */}
+        <div className="text-white text-center mt-10 max-w-2xl">
+          <h1 className="text-3xl font-bold">Welcome to My Curator Site</h1>
+          <p className="mt-4 text-lg">
+            Select a category above to explore articles, art, and projects.
+          </p>
         </div>
       </div>
+
+      {/* Right Red Sidebar */}
+      <div className="w-32 bg-[#682300]" />
     </main>
   )
 }
