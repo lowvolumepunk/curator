@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen">
-      {/* Left Red Sidebar with Dragon (.3x bigger) */}
+      {/* Left Red Sidebar with Dragon (w-80) */}
       <div
-        className="w-64 bg-[#682300] hidden sm:block"
+        className="w-80 bg-[#682300] hidden sm:block"
         style={{
           backgroundImage: "url('/dragons/dragon-left.png')",
           backgroundRepeat: "no-repeat",
@@ -51,9 +51,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Right Red Sidebar with Dragon (.3x bigger) */}
+      {/* Right Red Sidebar with Dragon (w-80) */}
       <div
-        className="w-64 bg-[#682300] hidden sm:block"
+        className="w-80 bg-[#682300] hidden sm:block"
         style={{
           backgroundImage: "url('/dragons/dragon-right.png')",
           backgroundRepeat: "no-repeat",
