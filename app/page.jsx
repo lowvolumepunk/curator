@@ -1,8 +1,12 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen">
-      {/* Left Red Sidebar */}
-      <div className="w-48 bg-[#682300]" />
+      {/* Left Red Sidebar with Dragon */}
+      <div
+        className="w-48 bg-[#682300] bg-no-repeat bg-center bg-contain hidden sm:block"
+        style={{ backgroundImage: "url('/dragons/dragon-left.png')" }}
+        aria-hidden="true"
+      />
 
       {/* Center Green Area */}
       <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center">
@@ -38,14 +42,16 @@ export default function Home() {
         {/* Main Content */}
         <div className="text-white text-center mt-10 max-w-2xl">
           <h1 className="text-3xl font-bold">Chinese Finger Trap</h1>
-          <p className="mt-4 text-lg italic">
-            Curator of all things worth curating
-          </p>
+          <p className="mt-4 text-lg italic">Curator of all things worth curating</p>
         </div>
       </div>
 
-      {/* Right Red Sidebar */}
-      <div className="w-48 bg-[#682300]" />
+      {/* Right Red Sidebar with Dragon */}
+      <div
+        className="w-48 bg-[#682300] bg-no-repeat bg-center bg-contain hidden sm:block"
+        style={{ backgroundImage: "url('/dragons/dragon-right.png')" }}
+        aria-hidden="true"
+      />
     </main>
   );
 }
