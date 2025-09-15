@@ -42,6 +42,14 @@ export default function Home() {
           <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md transition-transform duration-300 hover:rotate-12 px-3">
             <span className="text-sm font-semibold leading-none whitespace-nowrap">Architecture</span>
           </div>
+
+          {/* New About Box */}
+          <a
+            href="/about"
+            className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md transition-transform duration-300 hover:rotate-12 px-3"
+          >
+            <span className="text-base font-semibold leading-none whitespace-nowrap">About</span>
+          </a>
         </div>
 
         {/* Main Content */}
