@@ -4,12 +4,12 @@
 
 /* Custom font */
 @font-face {
-  font-family: 'MyFont';
-  src: url('/fonts/MyFont.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Brutel';
+  src: url('/fonts/Brutel-Black.otf') format('opentype');
+  font-weight: 900; /* Black weight */
   font-style: normal;
 }
 
 body {
-  font-family: 'MyFont', sans-serif;
+  font-family: 'Brutel', sans-serif;
 }
