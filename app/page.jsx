@@ -45,3 +45,4 @@ export default function Home() {
     </main>
   );
 }
+<div className="bg-[#FFD93A] text-black p-10">HELLO FROM TAILWIND 3</div>
