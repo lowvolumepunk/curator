@@ -46,7 +46,7 @@ export default function Home() {
 
         {/* Main Content */}
         <div className="text-white text-center mt-10 max-w-2xl">
-          <h1 className="text-3xl font-bold">Chinese Finger Trap</h1>
+          <h1 className="text-5xl font-extrabold uppercase">Chinese Finger Trap</h1>
           <p className="mt-4 text-lg italic">Curator of all things worth curating</p>
         </div>
       </div>
