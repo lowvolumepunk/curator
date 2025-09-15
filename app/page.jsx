@@ -9,27 +9,27 @@ export default function Home() {
         {/* Navigation Boxes */}
         <div className="flex gap-4 p-6">
           {/* New Arrivals (bigger box) */}
-          <div className="w-48 h-24 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-48 h-24 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             New Arrivals
           </div>
 
           {/* Other Boxes */}
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Music
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Digital Art
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Physical Art
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Films
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Short Films
           </div>
-          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:-rotate-12 transition-transform duration-300">
+          <div className="w-40 h-12 bg-white text-black flex items-center justify-center rounded shadow-md hover:rotate-12 transition-transform duration-300">
             Architecture
           </div>
         </div>
