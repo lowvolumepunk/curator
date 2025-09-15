@@ -1,10 +1,15 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen">
-      {/* Left Red Sidebar with Dragon */}
+      {/* Left Red Sidebar with Dragon (scales to full height) */}
       <div
-        className="w-48 bg-[#682300] bg-no-repeat bg-center bg-contain hidden sm:block"
-        style={{ backgroundImage: "url('/dragons/dragon-left.png')" }}
+        className="w-48 bg-[#682300] hidden sm:block"
+        style={{
+          backgroundImage: "url('/dragons/dragon-left.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "auto 100%", // width auto, height fills sidebar
+        }}
         aria-hidden="true"
       />
 
@@ -46,10 +51,15 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Right Red Sidebar with Dragon */}
+      {/* Right Red Sidebar with Dragon (scales to full height) */}
       <div
-        className="w-48 bg-[#682300] bg-no-repeat bg-center bg-contain hidden sm:block"
-        style={{ backgroundImage: "url('/dragons/dragon-right.png')" }}
+        className="w-48 bg-[#682300] hidden sm:block"
+        style={{
+          backgroundImage: "url('/dragons/dragon-right.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "auto 100%", // width auto, height fills sidebar
+        }}
         aria-hidden="true"
       />
     </main>
