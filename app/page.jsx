@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen">
       {/* Left Red Sidebar */}
-      <div className="w-32 bg-[#682300]" />
+      <div className="w-48 bg-[#682300]" />
 
       {/* Center Green Area */}
       <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center">
@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       {/* Right Red Sidebar */}
-      <div className="w-32 bg-[#682300]" />
+      <div className="w-48 bg-[#682300]" />
     </main>
   )
 }
