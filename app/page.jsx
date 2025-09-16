@@ -3,11 +3,7 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   // Simple font cycle (no delay, no bold/italic swaps)
-  const fonts = [
-    "font-sans",
-    "font-serif",
-    "font-mono",
-  ];
+  const fonts = ["font-sans", "font-serif", "font-mono"];
   const [fontIndex, setFontIndex] = useState(0);
 
   useEffect(() => {
@@ -21,10 +17,10 @@ export default function Home() {
     <div className="flex flex-col items-center w-full h-full px-8 py-6 overflow-hidden">
       {/* Top Tabs */}
       <div className="flex flex-wrap gap-4 justify-center max-w-4xl">
-        {/* Newest Arrivals */}
-        <div className="w-48 h-24 bg-white text-black flex flex-col items-center justify-center rounded shadow-md transition-transform duration-300 hover:-rotate-12">
-          <span className="leading-tight text-[1.25rem] font-extrabold">Newest</span>
-          <span className="leading-tight text-[1.25rem] font-extrabold">Arrivals</span>
+        {/* Newest Arrivals (same size as other boxes, stacked text) */}
+        <div className="w-36 h-12 bg-white text-black flex flex-col items-center justify-center rounded shadow-md transition-transform duration-300 hover:-rotate-12">
+          <span className="leading-tight text-sm font-extrabold">Newest</span>
+          <span className="leading-tight text-sm font-extrabold">Arrivals</span>
         </div>
 
         {/* Other Tabs */}
@@ -43,10 +39,10 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="text-white text-center mt-12 max-w-3xl">
-        <h1 className={`text-5xl md:text-6xl uppercase ${fonts[fontIndex]}`}>
+        <h1 className={`text-5xl md:text-6xl ${fonts[fontIndex]}`}>
           Chinese Finger Trap
         </h1>
-        <p className="mt-4 text-lg italic">a gallery of things we love</p>
+        <p className="mt-4 text-lg italic">a digital gallery of things we like</p>
       </div>
     </div>
   );
