@@ -17,8 +17,8 @@ export default function Home() {
     <div className="flex flex-col items-center w-full h-full px-8 py-6 overflow-hidden">
       {/* Top Tabs */}
       <div className="flex flex-wrap gap-4 justify-center max-w-4xl">
-        {/* Newest Arrivals (same size as other boxes, stacked text) */}
-        <div className="w-36 h-12 bg-white text-black flex flex-col items-center justify-center rounded shadow-md transition-transform duration-300 hover:-rotate-12">
+        {/* Newest Arrivals (same size as others, stacked text) */}
+        <div className="w-36 h-12 bg-white text-black flex flex-col items-center justify-center rounded shadow-md transition-transform duration-300 hover:rotate-12">
           <span className="leading-tight text-sm font-extrabold">Newest</span>
           <span className="leading-tight text-sm font-extrabold">Arrivals</span>
         </div>
@@ -28,7 +28,7 @@ export default function Home() {
           <a
             key={i}
             href={label === "About" ? "/about" : "#"}
-            className="w-36 h-12 bg-white text-black flex items-center justify-center rounded shadow-md transition-transform duration-300 hover:-rotate-12 px-3"
+            className="w-36 h-12 bg-white text-black flex items-center justify-center rounded shadow-md transition-transform duration-300 hover:rotate-12 px-3"
           >
             <span className="text-base font-semibold leading-none whitespace-nowrap">
               {label}
