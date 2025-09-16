@@ -14,10 +14,22 @@ export default function SiteFrame({ children }) {
       >
         {/* Sparkle overlay */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="animate-ping absolute w-2 h-2 bg-yellow-300 rounded-full opacity-75 top-10 left-10"></div>
-          <div className="animate-ping absolute w-3 h-3 bg-yellow-200 rounded-full opacity-75 top-1/3 left-1/2"></div>
-          <div className="animate-ping absolute w-2 h-2 bg-white rounded-full opacity-75 bottom-20 right-16"></div>
-          <div className="animate-ping absolute w-1 h-1 bg-yellow-100 rounded-full opacity-75 top-1/4 right-10"></div>
+          <div
+            className="animate-ping absolute w-2 h-2 bg-yellow-300 rounded-full opacity-75 top-10 left-10"
+            style={{ animationDelay: "0ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-3 h-3 bg-yellow-200 rounded-full opacity-75 top-1/3 left-1/2"
+            style={{ animationDelay: "400ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-2 h-2 bg-white rounded-full opacity-75 bottom-20 right-16"
+            style={{ animationDelay: "800ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-1 h-1 bg-yellow-100 rounded-full opacity-75 top-1/4 right-10"
+            style={{ animationDelay: "1200ms" }}
+          ></div>
         </div>
       </div>
 
@@ -39,10 +51,22 @@ export default function SiteFrame({ children }) {
       >
         {/* Sparkle overlay */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="animate-ping absolute w-2 h-2 bg-yellow-300 rounded-full opacity-75 top-8 left-16"></div>
-          <div className="animate-ping absolute w-3 h-3 bg-yellow-200 rounded-full opacity-75 top-1/2 left-1/3"></div>
-          <div className="animate-ping absolute w-2 h-2 bg-white rounded-full opacity-75 bottom-24 right-20"></div>
-          <div className="animate-ping absolute w-1 h-1 bg-yellow-100 rounded-full opacity-75 bottom-10 left-12"></div>
+          <div
+            className="animate-ping absolute w-2 h-2 bg-yellow-300 rounded-full opacity-75 top-8 left-16"
+            style={{ animationDelay: "200ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-3 h-3 bg-yellow-200 rounded-full opacity-75 top-1/2 left-1/3"
+            style={{ animationDelay: "600ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-2 h-2 bg-white rounded-full opacity-75 bottom-24 right-20"
+            style={{ animationDelay: "1000ms" }}
+          ></div>
+          <div
+            className="animate-ping absolute w-1 h-1 bg-yellow-100 rounded-full opacity-75 bottom-10 left-12"
+            style={{ animationDelay: "1400ms" }}
+          ></div>
         </div>
       </div>
     </main>
