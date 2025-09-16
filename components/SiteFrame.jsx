@@ -1,7 +1,7 @@
 export default function SiteFrame({ children }) {
   return (
-    <main className="flex min-h-screen">
-      {/* Left Red Sidebar with Dragon (locked 320px) */}
+    <main className="flex h-screen w-screen overflow-hidden">
+      {/* Left Red Sidebar with Dragon (fixed 320px) */}
       <div
         className="flex-none w-[320px] bg-[#682300] hidden sm:block"
         style={{
@@ -13,12 +13,12 @@ export default function SiteFrame({ children }) {
         aria-hidden="true"
       />
 
-      {/* Center Green Area */}
-      <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center">
+      {/* Center Green Area (fills remaining space) */}
+      <div className="flex-1 bg-[#0E3F3E] flex flex-col items-center justify-center overflow-hidden">
         {children}
       </div>
 
-      {/* Right Red Sidebar with Dragon (locked 320px) */}
+      {/* Right Red Sidebar with Dragon (fixed 320px) */}
       <div
         className="flex-none w-[320px] bg-[#682300] hidden sm:block"
         style={{
